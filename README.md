@@ -1,5 +1,7 @@
 # WARCHOG
 
+**Play:** [warchog.vercel.app](https://warchog.vercel.app) — 3D hub, Training and VS Computer.
+
 A browser-based 3D arena fighter for desktop and mobile. Pick from **12 fighters / 13 appearances**, fight across **five arenas**, and move freely around your opponent with a rotating camera.
 
 ![WARCHOG hub](docs/images/warchog-home.png)
@@ -41,6 +43,8 @@ Open **http://127.0.0.1:5190**. This command serves the frontend and backend tog
 ## Vercel deployment
 
 `vercel.json` deploys the Vite frontend with `VITE_WARCHOG_STATIC_HOST=true`. This hosted build includes the 3D hub, character and map selection, Training and VS Computer. Online and prize-entry buttons show Coming soon because this deployment does not run the single-process Node room server or its private SQLite database. Existing public contract lookup and eligible wallet recovery remain available.
+
+The current `archzxy/warchog` project was deployed through the CLI. Automatic GitHub deployment is not connected yet: the GitHub account linked to Vercel needs write/admin access to `pupulion21/warchog`.
 
 Local development and the standalone Node server retain online/prize support. Do not upload `.local/`, environment files, databases or the signer to a static deployment. Deploy the persistent backend separately or adapt room ownership and storage before enabling hosted online play. `.vercelignore` excludes private and authoring files from CLI uploads.
 
@@ -107,6 +111,7 @@ Browser QA requires Python's `playwright` package and an installed Chromium. Set
 
 Recorded checks for this implementation:
 
+- **11 public Vercel browser checks passed** (desktop and mobile emulation): [deployment report](validation/vercel-deployment-report.json).
 - **50 Node tests passed**, plus the production build.
 - **194 browser/standalone regression checks passed**: [report](validation/online-production-report.json).
 - **23 real local-EVM/browser payment checks passed**: [report](validation/paid-local-e2e-report.json), including funding, result settlement, claims, token-transfer failure, Void, Forfeit and recovery.

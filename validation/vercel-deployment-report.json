@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "url": "https://warchog.vercel.app",
+  "checks": [
+    {
+      "name": "public homepage responds without login",
+      "pass": true
+    },
+    {
+      "name": "3D hub initializes on the actual public deployment",
+      "pass": true
+    },
+    {
+      "name": "hosted free and prize entries clearly show unavailable",
+      "pass": true
+    },
+    {
+      "name": "static lobby avoids nonexistent backend API calls",
+      "pass": true
+    },
+    {
+      "name": "Training loads two complete rigged fighter instances",
+      "pass": true
+    },
+    {
+      "name": "WASD reaches the playable 3D simulation",
+      "pass": true
+    },
+    {
+      "name": "Escape opens the pause menu",
+      "pass": true
+    },
+    {
+      "name": "VS Computer runs the local opponent",
+      "pass": true
+    },
+    {
+      "name": "mobile home fits the 390px viewport",
+      "pass": true
+    },
+    {
+      "name": "mobile Training starts with loaded 3D fighters",
+      "pass": true
+    },
+    {
+      "name": "no uncaught browser errors or broken deployment assets",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "internalFailures": [],
+  "scope": "Public Vercel production frontend, installed Chromium/SwiftShader, desktop and mobile emulation. Training/CPU only; no wallet prompts or public-chain transactions."
+}
