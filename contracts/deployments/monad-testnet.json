@@ -1,0 +1,69 @@
+{
+  "project": "WARCHOG",
+  "status": "DEPLOYED_AND_SOURCE_VERIFIED",
+  "network": "Monad testnet",
+  "chainId": 10143,
+  "contractName": "PaidDuelEscrowV2",
+  "address": "0xFf4553156a4F75feB47674bB8e96C537404413bd",
+  "deploymentBlock": "73722106",
+  "transactionHash": "0x1c253b3d6bee33a07028d2d59e4c3ac1f7175e1b95c194a602e1eee4aa170fdb",
+  "token": {
+    "symbol": "USDC",
+    "decimals": 6,
+    "address": "0x534b2f3A21130d7a60830c2Df862319e593943A3"
+  },
+  "protocolVersion": 2,
+  "domain": {
+    "name": "CHOG Paid Duel",
+    "version": "2",
+    "chainId": 10143,
+    "verifyingContract": "0xFf4553156a4F75feB47674bB8e96C537404413bd"
+  },
+  "roles": {
+    "owner": "0xcB5da6A6f55b66aCcd45f07a3cfc346408d562bB",
+    "guardian": "0xcB5da6A6f55b66aCcd45f07a3cfc346408d562bB",
+    "treasury": "0xcB5da6A6f55b66aCcd45f07a3cfc346408d562bB",
+    "resultSigner": "0x2d59a037e968C5027F083C1a0ad9aB6c046b39A9",
+    "relay": "0xaA6E3af3641Cd6fA5081213887EfB7Ce2e232163",
+    "deployer": "0x5A99A9B2A13EDFAF6231576fbaC73Ea5be29fAd4"
+  },
+  "policy": {
+    "entry": "1000000",
+    "pool": "2000000",
+    "winnerAward": "1900000",
+    "treasuryFee": "100000",
+    "feeBps": 500,
+    "maxFundingWindow": 900,
+    "playWindow": 3600,
+    "settlementWindow": 4500
+  },
+  "abiPath": "contracts/abi/PaidDuelEscrowV2.json",
+  "abiHash": "0xc64d6d3ff07742606173e6c53a91cfd294f34ebd1a3915fd612779bdf12f246a",
+  "sourceSha256": {
+    "contracts/src/PaidDuelEscrowV2.sol": "eec3226dad99b4b875ac1a407b57d512c695c314558e14eaa9ceca85993497fb",
+    "contracts/src/EscrowAccounting.sol": "2aae933bb3fa48d782bb16e05064fc3e870770d321d53ff6882817e67d8a22fc"
+  },
+  "compiler": "v0.8.38+commit.1835d247",
+  "optimizerRuns": 200,
+  "viaIR": true,
+  "evmVersion": "cancun",
+  "finalized": true,
+  "runtimeMatchesArtifact": true,
+  "configurationVerified": true,
+  "verification": {
+    "monadvision": {
+      "status": "success",
+      "message": "Verified with perfect match",
+      "url": "https://testnet.monadvision.com/address/0xFf4553156a4F75feB47674bB8e96C537404413bd"
+    },
+    "monadscan": {
+      "status": "success",
+      "message": "Pass - Verified",
+      "guid": "gylv8a8us1wmrbmtnjj1vfhlbif4jb19im991uhyvcnnurnw6a",
+      "url": "https://testnet.monadscan.com/address/0xFf4553156a4F75feB47674bB8e96C537404413bd"
+    }
+  },
+  "explorer": "https://testnet.monadscan.com/address/0xFf4553156a4F75feB47674bB8e96C537404413bd#code",
+  "applicationPaymentsEnabled": false,
+  "publicDuelTransactionsTested": false
+}

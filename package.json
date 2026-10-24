@@ -1,0 +1,13 @@
+{
+  "name": "warchog-contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "contracts:build": "forge build --root contracts",
+    "contracts:test": "forge test --root contracts"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0"
+  }
+}

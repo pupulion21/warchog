@@ -1,0 +1,15 @@
+{
+  "suite": "PaidDuelEscrowV2Test",
+  "passed": 48,
+  "failed": 0,
+  "skipped": 0,
+  "networkModel": "monad",
+  "fuzzRunsPerTest": 256,
+  "fuzzSeed": "0x20261024",
+  "command": "forge test --root contracts --network monad --fuzz-runs 256 --fuzz-seed 0x20261024",
+  "usesLocalMockUSDC": true,
+  "publicTestnetGameplayTransactionsTested": false,
+  "sourceMatchesDeploymentManifest": true,
+  "exportedAbiMatchesStandaloneBuild": true,
+  "secretScan": "gitleaks dir: no leaks found; active local private-key values also checked and absent"
+}

@@ -1,0 +1,42 @@
+{
+  "compilerVersion": "v0.8.38+commit.1835d247",
+  "contractName": "src/PaidDuelEscrowV2.sol:PaidDuelEscrowV2",
+  "contractAddress": "0xFf4553156a4F75feB47674bB8e96C537404413bd",
+  "chainId": 10143,
+  "initCodeHash": "0x2ed264fee5ce7d4a5fe48192798eafa0a73634de97a066dead5339320004a0a4",
+  "settings": {
+    "remappings": [
+      "@openzeppelin/contracts/=../server/node_modules/@openzeppelin/contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "metadata": {
+      "useLiteralContent": false,
+      "bytecodeHash": "ipfs",
+      "appendCBOR": true
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode.object",
+          "evm.bytecode.sourceMap",
+          "evm.bytecode.linkReferences",
+          "evm.deployedBytecode.object",
+          "evm.deployedBytecode.sourceMap",
+          "evm.deployedBytecode.linkReferences",
+          "evm.deployedBytecode.immutableReferences",
+          "evm.methodIdentifiers",
+          "metadata"
+        ]
+      }
+    },
+    "evmVersion": "cancun",
+    "viaIR": true,
+    "viaSSACFG": false,
+    "experimental": false,
+    "libraries": {}
+  }
+}
