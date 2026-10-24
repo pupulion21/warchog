@@ -1,0 +1,12 @@
+node_modules/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+.env
+.env.*
+!.env.example
+*.keystore
+keystores/
+*private-key*
+*.log
+.DS_Store
