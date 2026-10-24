@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:5188",
+  "bundle": "dist/assets/index-oy0jeCJT.js",
+  "bundleSha256": "534324ba10824b7dfaff42a5e97c4cb64d830692959abb9c9045f12e257c600f",
+  "frontendFiles": {
+    "dist/index.html": "c32b17d077436cf5a4de3de6d4a01e7c24adea019f8c92f659ebf5209f55979e",
+    "dist/assets/index-oy0jeCJT.js": "534324ba10824b7dfaff42a5e97c4cb64d830692959abb9c9045f12e257c600f",
+    "dist/assets/index-ByqZHgUh.css": "95fb3afebdc9fa311c00e2d5b2f5c88cae651c954443dad0bf0998b619068399",
+    "dist/assets/duel-chain-Drg6xFKg.js": "d16e40eb9baa1cf4cfb9ce8d287a493fd06daff17920b188e07dc760174957a4"
+  },
+  "serverSourceFiles": {
+    "server/app.ts": "b686197e2c3b1b0242660a14841b8237d32cb250a4be64a3dd53a9da56fc58b5",
+    "server/config.ts": "31c74776521ab953ff2289b71cc426bec2e5804a61b5b3a145c62467994c754e",
+    "server/index.ts": "3e09cc502cc14b89111e787dc342b7f294008161b7bcbcc2de4bc828fa8b0054",
+    "server/paid.ts": "d08fc4b2091bddf781fc7df71759e0e99b3da18343a22025848e8ed443756401",
+    "server/rooms.ts": "a52cf1843320c1bb4c1a26d90a928b299fb842c26a22ae719ba8cf82203a4531",
+    "server/settlement.ts": "5ba67260bd9ea440c922fcc5d70ba6640bf9da4cbfdc69eefc2127a42434f9b2",
+    "server/store.ts": "bdc456365ac1b0cc1cb0b30dfde2315b1321420963e71e398d1b6832d2e4d35e",
+    "server/vite.ts": "328cb69508f32932bae98ef6ce4cba32f1c0c0cb44b42a546c4d327aff6f11a5",
+    "src/combat.ts": "1a9789b8f470a25f6de2a8a14e699479ba6cce19da251535aba79768d1b1738d",
+    "src/physics.ts": "04b386f2e89763d45db77a01b982a16b69d5d2e4f32b325a5c9d1c68e30f86e7",
+    "src/stage.ts": "4565a11e49614ec723cb57dab9d337db8ef717571e3fe0ad0eefa8c26ead954c",
+    "src/online-protocol.ts": "8591e7af55706401b050e806136894bf5b37d194b9e50adb2df86ad30e90fae1",
+    "src/payment-types.ts": "80ae167b85ead077e76bbcacf1ee670535192a59de10236f7c8da02ff767082d"
+  },
+  "suites": [
+    {
+      "suite": "online",
+      "checks": 21,
+      "report": "validation/online-report.json"
+    },
+    {
+      "suite": "standalone",
+      "checks": 6,
+      "report": "validation/standalone-report.json"
+    },
+    {
+      "suite": "duel",
+      "checks": 55,
+      "report": "validation/duel-report.json"
+    },
+    {
+      "suite": "controls",
+      "checks": 50,
+      "report": "validation/controls-report.json"
+    },
+    {
+      "suite": "menu",
+      "checks": 39,
+      "report": "validation/menu-report.json"
+    },
+    {
+      "suite": "showcase",
+      "checks": 23,
+      "report": "validation/showcase-report.json"
+    }
+  ],
+  "checks": 194,
+  "scope": "Actual production bundle and authoritative server in installed Chromium/SwiftShader. Isolated QA database. Desktop, mobile emulation and reduced motion; not a physical-phone frame-rate benchmark."
+}

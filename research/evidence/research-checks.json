@@ -1,0 +1,12 @@
+{
+  "status": "PASS_RESEARCH_ARTIFACT_CHECKS",
+  "checks": [
+    "all local document links resolve",
+    "12 roster IDs and 13 form rows",
+    "78 move rows with 77 available slots and empowered ultimate marked unavailable",
+    "87 unique animation planning slots include trigger and acceptance",
+    "nine selected library candidates with source URL/date",
+    "all 12 examined source hashes remain unchanged"
+  ],
+  "scope_limit": "Document/data consistency only; no 3D implementation, generation, runtime acceptance, or device benchmark performed."
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "rayj-house",
+    "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/arenas/rayj-house.webp",
+    "referenceSha256": "5e8f2302742ae1ff659a7be2090f1e7192d46a62c1b1d3503222f750d51f601d",
+    "method": "Authored 3D architecture and props, with small reference-art sign/poster crops. Original synthesized ambience is reused.",
+    "newGeneration": false,
+    "meshyCredits": 0,
+    "textures": [
+      {
+        "file": "poster.webp",
+        "crop": [
+          975,
+          29,
+          1101,
+          220
+        ],
+        "bytes": 5676
+      },
+      {
+        "file": "drawing.webp",
+        "crop": [
+          111,
+          95,
+          203,
+          182
+        ],
+        "bytes": 2360
+      },
+      {
+        "file": "sunset.webp",
+        "crop": [
+          481,
+          60,
+          790,
+          207
+        ],
+        "bytes": 7448
+      }
+    ],
+    "ambience": {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/audio/ambience-rayj-house.mp3",
+      "file": "ambience.mp3",
+      "sha256": "8580f0e0c8df64d9079295679054939f2c3fa1bb748945b8c468fe777fe06aad",
+      "bytes": 193148
+    }
+  },
+  {
+    "id": "cwo-alley",
+    "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/arenas/cwo-alley.webp",
+    "referenceSha256": "3247ca114fcbb3ad33207e20c16556ee3160f365e12c27906bfc5351658ec07a",
+    "method": "Authored 3D architecture and props, with small reference-art sign/poster crops. Original synthesized ambience is reused.",
+    "newGeneration": false,
+    "meshyCredits": 0,
+    "textures": [],
+    "ambience": {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/audio/ambience-cwo-alley.mp3",
+      "file": "ambience.mp3",
+      "sha256": "0e0c15ff35452bcb681a8ea8a74ec16062428d7081d405d4afcf313392a8fdb5",
+      "bytes": 193148
+    }
+  },
+  {
+    "id": "house-cup",
+    "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/arenas/house-cup.webp",
+    "referenceSha256": "685d32248338ce60b0dbf670f7354cae42fd959830ff4fdc768b5091f71d4612",
+    "method": "Authored 3D architecture and props, with small reference-art sign/poster crops. Original synthesized ambience is reused.",
+    "newGeneration": false,
+    "meshyCredits": 0,
+    "textures": [
+      {
+        "file": "banner.webp",
+        "crop": [
+          76,
+          0,
+          211,
+          290
+        ],
+        "bytes": 8606
+      }
+    ],
+    "ambience": {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/audio/ambience-house-cup.mp3",
+      "file": "ambience.mp3",
+      "sha256": "88bd93f88638cdbd19c6bd2a29a4b56fc19a9c65db446e5ebd948008983f5e2b",
+      "bytes": 193148
+    }
+  },
+  {
+    "id": "neon-street",
+    "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/arenas/neon-street.webp",
+    "referenceSha256": "ce19f93b7a4f5f2f6030ac6bd6a35a5b58593acbdd9bd05923d0a4ff9536abb0",
+    "method": "Authored 3D architecture and props, with small reference-art sign/poster crops. Original synthesized ambience is reused.",
+    "newGeneration": false,
+    "meshyCredits": 0,
+    "textures": [
+      {
+        "file": "store-sign.webp",
+        "crop": [
+          13,
+          89,
+          366,
+          235
+        ],
+        "bytes": 16432
+      },
+      {
+        "file": "noodle-sign.webp",
+        "crop": [
+          1158,
+          232,
+          1280,
+          302
+        ],
+        "bytes": 4404
+      },
+      {
+        "file": "billboard.webp",
+        "crop": [
+          519,
+          122,
+          601,
+          308
+        ],
+        "bytes": 5622
+      }
+    ],
+    "ambience": {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/audio/ambience-neon-street.mp3",
+      "file": "ambience.mp3",
+      "sha256": "fdebf240a7503126c7f6844ebc8dd8706cf105c8114f9ae0fc1d25ef81e0c34b",
+      "bytes": 193148
+    }
+  },
+  {
+    "id": "cwo-rally",
+    "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/arenas/cwo-rally.webp",
+    "referenceSha256": "18c1b5996d73b185fd3b14b43c2f42ff98391ed7e3b923ce2f2a15bb4a5bfe37",
+    "method": "Authored 3D architecture and props, with small reference-art sign/poster crops. Original synthesized ambience is reused.",
+    "newGeneration": false,
+    "meshyCredits": 0,
+    "textures": [
+      {
+        "file": "led-wall.webp",
+        "crop": [
+          436,
+          177,
+          845,
+          390
+        ],
+        "bytes": 18980
+      },
+      {
+        "file": "banner.webp",
+        "crop": [
+          251,
+          141,
+          352,
+          321
+        ],
+        "bytes": 4652
+      }
+    ],
+    "ambience": {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/audio/ambience-cwo-rally.mp3",
+      "file": "ambience.mp3",
+      "sha256": "83ae49f26d6df5609045defb5ee426c1dfcebe856d2585685e8a6cbbaef1c9b7",
+      "bytes": 193148
+    }
+  }
+]

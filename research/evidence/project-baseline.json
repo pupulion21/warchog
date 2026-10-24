@@ -1,0 +1,87 @@
+{
+  "research_date_local": "2026-10-23",
+  "recorded_at_utc": "2026-10-23T07:14:15.444836+00:00",
+  "source_root": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash",
+  "output_root": "/home/haikaru/Archverse/Lab/Chogclash/research",
+  "scope": {
+    "combat": "free-movement 3D arena",
+    "platform": "desktop and mobile browsers",
+    "work": "research only; no asset generation"
+  },
+  "head_commit": "1ac9751f86569b6b8c177994d5074a0d85faf94d",
+  "working_tree_status_entries": 344,
+  "head_warning": "HEAD is old upstream; working tree contains current CHOG implementation. Hashes below identify examined files.",
+  "roster_count": 12,
+  "visual_forms_count": 13,
+  "runtime_move_rows": 78,
+  "runtime_move_rows_available": 77,
+  "manifest_count": 13,
+  "manifest_animation_states": [
+    "attack1",
+    "attack2",
+    "attack3",
+    "crouch",
+    "doublejump",
+    "down",
+    "hurt",
+    "idle",
+    "jump",
+    "recover",
+    "run",
+    "skill1",
+    "skill2",
+    "ultimate",
+    "walk"
+  ],
+  "file_sha256": {
+    "chog-roster.json": "5cb60293de5ccce85af23bbb19c086d0feaf639343eb38464ad951e87fc2cc85",
+    "chog-roster.js": "d11f10b944a69e141008f9222c8048d4f32f9b16857415c77cfe232ba64445ab",
+    "online/core.mjs": "e9be5123ef60a3e12196d19ffd11922ac6626a6138ee2a67254b43b574258819",
+    "online/kit-combat.mjs": "a825bb1bde9135f865cc683969c14cb887c314ea2617fa99cc7936f568fcd2f7",
+    "online/kit-data.mjs": "dfedde2a4c3a8f3cb4ae0e15ff10dcb3465b674dbd72db9b23317bf60602a67a",
+    "online/client.mjs": "42dce09a1ecc6af9176753b0bd181f5b24dfbd40247dff190f9ce8ea8ddc7d2c",
+    "server/room.mjs": "c48510da5d1b2c690674d1596d3104e28ede29ead838ccf64263626ea2439ccb",
+    "server/package.json": "dc061682764206f9fa6d4f4722a6af04df2439772a06d9f1d4819094b7fee725",
+    "game.js": "723b86b841c1b73644eea9bfed7f46a5453aa69bd09df763898b3768269abc10",
+    "tools/chog-art.js": "d1bba86f10005cf4d3b2b5b6a20421790e1847d87ce1d2a89ed0aec1f723b742",
+    "tools/chog-effects.js": "1c2c218010eaa9c70e7ffaaea90bbf6542d0293be0f0727f7b71358250080559",
+    "LICENSE-ASSETS.md": "ee66cc162af2a7fbb25cd6549b50488fde30aae2a1d7addec8d9ab86e97ec957"
+  },
+  "baseline": {
+    "server_tick_hz": 60,
+    "physics_substeps_per_tick": 2,
+    "snapshot_hz": 20,
+    "hp": 200,
+    "round_seconds": 90,
+    "hitstun_seconds": 0.42,
+    "hitstop_seconds": [
+      0.045,
+      0.085
+    ],
+    "post_hurt_invulnerability_seconds": 0.9,
+    "note": "Values read from source; not 3D design requirements or benchmarks."
+  },
+  "verification_performed": [
+    "Read current files and hashes",
+    "Viewed existing roster screenshot and Mamio empowered portrait",
+    "Imported shared combat module and queried move definitions for all fighter/form slots",
+    "Reviewed primary provider/engine documentation"
+  ],
+  "not_performed": [
+    "Asset generation",
+    "Paid rigging or animation tasks",
+    "3D prototype implementation",
+    "Device/GPU benchmark",
+    "Animation preview/retarget deformation testing",
+    "Live online acceptance or blockchain transactions"
+  ],
+  "mesh_api_balance_prior_check": {
+    "credits": 1350,
+    "monthly": 1000,
+    "permanent": 350,
+    "monthly_reset_at": "2026-11-10T13:53:15.000Z",
+    "mcp_version": "0.6.5",
+    "tool_count": 28,
+    "credentials": "not copied into research artifacts"
+  }
+}

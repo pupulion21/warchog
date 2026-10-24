@@ -1,0 +1,42 @@
+{
+  "id": "rogue",
+  "characterId": "rogue",
+  "name": "Rogue",
+  "form": "base",
+  "prop": "brush",
+  "version": 1,
+  "model": "/assets/rogue/rogue.glb",
+  "height": 2.1,
+  "source": "Meshy generated and rigged from the provided CHOG Rogue reference",
+  "clips": {
+    "idle": "Combat_Stance",
+    "walk_forward": "Walk_Fight_Forward_inplace",
+    "walk_back": "Walk_Fight_Back_inplace",
+    "walk_left": "Walk_Left_with_Gun_inplace",
+    "walk_right": "Walk_Left_with_Gun_inplace",
+    "run": "Armature|running|baselayer",
+    "attack1": "Left_Jab_from_Guard",
+    "attack2": "Left_Jab_from_Guard",
+    "attack3": "Left_Jab_from_Guard",
+    "skill": "Charged_Spell_Cast",
+    "stomp": "Charged_Ground_Slam",
+    "hurt": "Hit_Reaction",
+    "down": "Knock_Down",
+    "getup": "Stand_Up1",
+    "ko": "Dead",
+    "dodge": "Stand_Dodge",
+    "jump": "Basic_Jump",
+    "fall": "Basic_Jump"
+  },
+  "skeleton": {
+    "joints": 24,
+    "format": "glTF2"
+  },
+  "notes": [
+    "Independent rig instances for player and rival; shared prototype move set.",
+    "Three combo steps currently share one jab source; timings differ.",
+    "Right strafe uses reversed left-strafe playback.",
+    "Poses grounded from sampled skinned vertex heights; XZ root translation removed."
+  ],
+  "sha256": "c759caad33df60e0cd8d3bbf0c72b45b67c2c8cb024950f45dae5e0ee25251bd"
+}

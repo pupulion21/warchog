@@ -1,0 +1,31 @@
+{
+  "purpose": "Reuse the Metropolis House Cup comic cover for the local 3D hub",
+  "newGeneration": false,
+  "meshyCredits": 0,
+  "files": [
+    {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/landing/comic-city.webp",
+      "local": "public/assets/menu/city.webp",
+      "bytes": 399032,
+      "sha256": "32fa4077a425bbb3ddc41b5d4ff8154960a9ad1aaf6f4bf701d0256b4f3d1105"
+    },
+    {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/landing/comic-heroes.webp",
+      "local": "public/assets/menu/crew.webp",
+      "bytes": 448882,
+      "sha256": "696005bdec13b7dba28e0c5927c4375fa5b650cea18cb74a4cff37798a514354"
+    },
+    {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/landing/fonts/Bangers-Regular.ttf",
+      "local": "public/assets/fonts/Bangers-Regular.ttf",
+      "bytes": 93148,
+      "sha256": "4160a7311de9342674cce9160cde9fcbb30f48190397d86ff1b70b455af65824"
+    },
+    {
+      "source": "/home/haikaru/Archverse/Lab/Hackathon/Metropolis/game/chog-clash/assets/chog/landing/fonts/bangers-OFL.txt",
+      "local": "public/assets/fonts/bangers-OFL.txt",
+      "bytes": 4479,
+      "sha256": "630dd5a307c0657b094d324e069b390edf90182fe5003639e06c02a0e5769af7"
+    }
+  ]
+}

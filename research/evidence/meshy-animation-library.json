@@ -1,0 +1,62 @@
+{
+  "source_url": "https://docs.meshy.ai/en/api/animation-library",
+  "checked_on": "2026-10-23",
+  "catalog_rows_observed": 656,
+  "scope": "Selected candidate metadata only; no animation generation/download/preview evaluation",
+  "candidates": [
+    {
+      "action_id": 0,
+      "name": "Idle",
+      "category": "DailyActions",
+      "subcategory": "Idle"
+    },
+    {
+      "action_id": 7,
+      "name": "BeHit_FlyUp",
+      "category": "Fighting",
+      "subcategory": "GettingHit"
+    },
+    {
+      "action_id": 20,
+      "name": "Walk_Fight_Back",
+      "category": "WalkAndRun",
+      "subcategory": "Walking"
+    },
+    {
+      "action_id": 21,
+      "name": "Walk_Fight_Forward",
+      "category": "WalkAndRun",
+      "subcategory": "Walking"
+    },
+    {
+      "action_id": 59,
+      "name": "Victory_Cheer",
+      "category": "BodyMovements",
+      "subcategory": "Acting"
+    },
+    {
+      "action_id": 89,
+      "name": "Combat_Stance",
+      "category": "Fighting",
+      "subcategory": "AttackingwithWeapon"
+    },
+    {
+      "action_id": 156,
+      "name": "Stand_Dodge",
+      "category": "Fighting",
+      "subcategory": "Transitioning"
+    },
+    {
+      "action_id": 178,
+      "name": "Hit_Reaction",
+      "category": "Fighting",
+      "subcategory": "GettingHit"
+    },
+    {
+      "action_id": 187,
+      "name": "Knock_Down",
+      "category": "Fighting",
+      "subcategory": "Dying"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "types": ["node"], "rewriteRelativeImportExtensions": true },
+  "include": ["server", "src/combat.ts", "src/physics.ts", "src/stage.ts", "src/online-protocol.ts"]
+}

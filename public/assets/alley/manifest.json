@@ -1,0 +1,40 @@
+{
+  "id": "cwo-alley",
+  "name": "CWO Alley",
+  "reference": "Metropolis/game/chog-clash/assets/chog/source-art/cwo-alley.png",
+  "referenceSha256": "f44980c2715b6bb7255cd9b5aa8488c7a9c6ebef10a05795d011c21898f336c2",
+  "method": "Offline mural/poster extraction and procedural tiling surfaces; arena and props are authored 3D geometry.",
+  "creditsConsumed": 0,
+  "textures": [
+    {
+      "file": "/assets/alley/mural.webp",
+      "bytes": 113900,
+      "sha256": "762b163568ebec672fd240377b6a47742ee7013993b215c93fe8bab793034cf2"
+    },
+    {
+      "file": "/assets/alley/brick.webp",
+      "bytes": 82508,
+      "sha256": "bea56199a1d186892f8c2b954e4ce12ec1d9cd545d946e5670e9c8fce0ce7c17"
+    },
+    {
+      "file": "/assets/alley/pavement.webp",
+      "bytes": 88240,
+      "sha256": "155a8ec4902f07646667898e1f0c57f7231d6da4a3b7cca4cfb6178369bccaa1"
+    },
+    {
+      "file": "/assets/alley/skull.webp",
+      "bytes": 3634,
+      "sha256": "4858a74370a57afec8b0efd637dd7dbd3316eb373681482fa23cacf1a24c528a"
+    },
+    {
+      "file": "/assets/alley/crown.webp",
+      "bytes": 3604,
+      "sha256": "a6de3b3597f17be1d198514747b5892269106ee8abc9ff3af98880298f23a41e"
+    },
+    {
+      "file": "/assets/alley/doodle.webp",
+      "bytes": 3454,
+      "sha256": "cf9b08020cd85d6dcbe6c03e968d91175f39d2c852062dfe019d2155f787585a"
+    }
+  ]
+}

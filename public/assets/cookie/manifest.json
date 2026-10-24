@@ -1,0 +1,42 @@
+{
+  "id": "cookie",
+  "characterId": "cookie",
+  "name": "Cookie",
+  "form": "base",
+  "prop": "microphone",
+  "version": 1,
+  "model": "/assets/cookie/cookie.glb",
+  "height": 2.05,
+  "source": "Meshy generated and rigged from the provided CHOG Cookie reference",
+  "clips": {
+    "idle": "Combat_Stance",
+    "walk_forward": "Walk_Fight_Forward_inplace",
+    "walk_back": "Walk_Fight_Back_inplace",
+    "walk_left": "Walk_Left_with_Gun_inplace",
+    "walk_right": "Walk_Left_with_Gun_inplace",
+    "run": "Armature|running|baselayer",
+    "attack1": "Left_Jab_from_Guard",
+    "attack2": "Left_Jab_from_Guard",
+    "attack3": "Left_Jab_from_Guard",
+    "skill": "Charged_Spell_Cast",
+    "stomp": "Charged_Ground_Slam",
+    "hurt": "Hit_Reaction",
+    "down": "Knock_Down",
+    "getup": "Stand_Up1",
+    "ko": "Dead",
+    "dodge": "Stand_Dodge",
+    "jump": "Basic_Jump",
+    "fall": "Basic_Jump"
+  },
+  "skeleton": {
+    "joints": 24,
+    "format": "glTF2"
+  },
+  "notes": [
+    "Independent rig instances for player and rival; shared prototype move set.",
+    "Three combo steps currently share one jab source; timings differ.",
+    "Right strafe uses reversed left-strafe playback.",
+    "Poses grounded from sampled skinned vertex heights; XZ root translation removed."
+  ],
+  "sha256": "b3adbb41d30808cac6dacc5ee5c53c1fd23a0fcfaa74701bb2cda4711ce04616"
+}

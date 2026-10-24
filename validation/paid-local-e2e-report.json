@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "two actual local wallets authenticate and enter a prize room",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "server agrees one immutable record and terms for both wallets",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "rejecting approval collects no entry and starts no fight",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "first confirmed transaction creates Funding and receives exactly one entry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "one funded seat cannot start the authoritative fight",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "the second actual entry atomically activates the contract and starts play",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "server gameplay produces the real Finished result for the higher-HP player",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "signed outcome alone does not transfer or allocate escrow funds",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "original Solidity accepts the signed result and allocates the exact 95/5 split",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "allocation stays separate from the actual winner transfer",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a real token-transfer failure preserves claimable winner credit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "confirmed winner claim moves 1.90 USDC to the bound wallet exactly once",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "the losing wallet never sees a winner claim action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "result pause blocks additional entry while keeping the sole-depositor cancel action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "sole-depositor cancellation creates an exact refund credit without paying it out early",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "refund claim works during a pause, restores the full entry, and leaves treasury credit unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a server-confirmed Void is accepted by Solidity and refunds both paid seats without a fee",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "both Void refunds can be claimed independently to restore their entries",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "private history restores an unsettled paid record without collecting another entry",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "persisted Forfeit signature pays the same winner/treasury split as Finished",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "a restored historical winner credit still transfers only to its bound wallet",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "wallet interaction used personal login signatures and explicit transaction requests",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "no uncaught JavaScript errors in real EVM payment flows",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "scope": "Owned localhost Anvil chain 31337, original PaidDuelEscrowV2 bytecode, local MockUSDC, two real browsers with unlocked local EIP-1193 test accounts. Actual EVM receipts/balances/credits; no public-chain transactions or production signer use."
+}

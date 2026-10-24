@@ -1,0 +1,71 @@
+{
+  "source": "Verified Babylon renders of the rigged game bodies. Live selection uses those GLBs directly.",
+  "newGeneration": false,
+  "files": [
+    {
+      "id": "yot",
+      "source": "assets-source/portraits3d/yot.png",
+      "sourceSha256": "5824321e3fae5a6a4989acbb893e5db96d8e5dc75ebe4db07d2653010bde938c"
+    },
+    {
+      "id": "mamio",
+      "source": "assets-source/portraits3d/mamio.png",
+      "sourceSha256": "36d62a005503b49fee98117437572cecaa29014247c41240d4a0b3058c10f6f7"
+    },
+    {
+      "id": "mamio-empowered",
+      "source": "assets-source/portraits3d/mamio-empowered.png",
+      "sourceSha256": "47b5e7cecb67162b101719799776245a8f05d2a68a0c82b4eee9ce3450973c39"
+    },
+    {
+      "id": "benja",
+      "source": "assets-source/portraits3d/benja.png",
+      "sourceSha256": "9be00147778e6bf7f77962febca02ef00d494da1e87271bbf2fec611f8d7f587"
+    },
+    {
+      "id": "toad",
+      "source": "assets-source/portraits3d/toad.png",
+      "sourceSha256": "8ed9d334b856996ba1ac6ec4c12d4751e3d726d32f2fd004a4fe0d3117a73d9a"
+    },
+    {
+      "id": "ping",
+      "source": "assets-source/portraits3d/ping.png",
+      "sourceSha256": "b52ebc8395886b22be61d0cf0f6bceef7d98d64b7ad1529d5a1bb950ed865b4b"
+    },
+    {
+      "id": "novee",
+      "source": "assets-source/portraits3d/novee.png",
+      "sourceSha256": "ef8fd519ce913156127b8a9c4be8237955a9fba720c9cb2981f06585873b9fcc"
+    },
+    {
+      "id": "tonashiro",
+      "source": "assets-source/portraits3d/tonashiro.png",
+      "sourceSha256": "f164d921a66bcb80014e34b8f099c7e8a7d76b42b8904cd8076bd3d2835a2a0a"
+    },
+    {
+      "id": "bigchog",
+      "source": "assets-source/portraits3d/bigchog.png",
+      "sourceSha256": "40088bdcb02d2009bbad5b6541508de45178f612484d615ec61eba77c4204981"
+    },
+    {
+      "id": "rogue",
+      "source": "assets-source/portraits3d/rogue.png",
+      "sourceSha256": "4e2dbb7a0490353a184936847fe5bc6e393f8de38a46b62b3ef042dff3247d19"
+    },
+    {
+      "id": "tabsu",
+      "source": "assets-source/portraits3d/tabsu.png",
+      "sourceSha256": "b6140e11ba565813374239dcd791c459d4a5f536cf76141abb8f58eb84fd04e9"
+    },
+    {
+      "id": "venty",
+      "source": "assets-source/portraits3d/venty.png",
+      "sourceSha256": "f9b5dbb740414aba4097c38c017c07c62d58f0bd21876ceff26329e26452185a"
+    },
+    {
+      "id": "cookie",
+      "source": "assets-source/portraits3d/cookie.png",
+      "sourceSha256": "59fc30e125642c5ef50e2c9600d693213ecad2625c8da4daf590cf25caec54cc"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "method": "Browser renders of the actual authored Babylon geometry. No remote generation.",
+  "files": [
+    {
+      "id": "rayj-house",
+      "render": "validation/world-rayj-house-tour.png",
+      "renderSha256": "92cb44e686a176cf974179c5d045eb2dd9db040644acadd9b64b8141ab42cff0",
+      "geometry": {
+        "meshes": 103,
+        "materials": 52,
+        "textures": 13,
+        "triangles": 107220
+      }
+    },
+    {
+      "id": "cwo-alley",
+      "render": "validation/world-cwo-alley-tour.png",
+      "renderSha256": "d069c9d0991d5f610665f8844e0310303372c2368b3f8b9fdf1ae5a3ab5cd947",
+      "geometry": {
+        "meshes": 122,
+        "materials": 52,
+        "textures": 14,
+        "triangles": 117506
+      }
+    },
+    {
+      "id": "house-cup",
+      "render": "validation/world-house-cup-tour.png",
+      "renderSha256": "bf18f5bd43a6b2a3ed55132e893c3d0bee2b1bc5e3775f2317627a6bf8b89d7a",
+      "geometry": {
+        "meshes": 85,
+        "materials": 39,
+        "textures": 12,
+        "triangles": 124306
+      }
+    },
+    {
+      "id": "neon-street",
+      "render": "validation/world-neon-street-tour.png",
+      "renderSha256": "32b3158b8fd9640e78b1c9e26260b298933a61838b3d826a2db7004dee5bda32",
+      "geometry": {
+        "meshes": 79,
+        "materials": 46,
+        "textures": 18,
+        "triangles": 86502
+      }
+    },
+    {
+      "id": "cwo-rally",
+      "render": "validation/world-cwo-rally-tour.png",
+      "renderSha256": "558c17b26abad01d6f0bce7d59971ade863a0d430d4c73a119359314d5e0b53e",
+      "geometry": {
+        "meshes": 71,
+        "materials": 36,
+        "textures": 10,
+        "triangles": 132616
+      }
+    }
+  ]
+}

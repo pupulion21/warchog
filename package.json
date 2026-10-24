@@ -1,13 +1,61 @@
 {
-  "name": "warchog-contracts",
-  "version": "0.1.0",
+  "name": "warchog-arena",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && tsc --noEmit -p tsconfig.server.json && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:browser": "python tools/browser_qa.py",
+    "test:map": "python tools/alley_qa.py",
+    "test:camera": "python tools/camera_qa.py",
+    "test:roster": "python tools/roster_qa.py",
+    "validate:roster": "node tools/validate_roster.mjs",
+    "assets:roster": "python tools/build_roster.py",
+    "assets:alley": "python tools/build_alley_assets.py",
+    "test:menu": "python tools/menu_qa.py",
+    "test:showcase": "python tools/showcase_qa.py",
+    "assets:thumbnails": "python tools/build_roster_thumbnails.py",
+    "test:worlds": "python tools/world_qa.py",
+    "test:environment": "python tools/environment_qa.py",
+    "test:environment-release": "python tools/verify_environment_release.py",
+    "assets:stages": "python tools/build_stage_assets.py",
+    "assets:stage-previews": "python tools/build_stage_previews.py",
+    "test:controls": "python tools/controls_qa.py",
+    "test:controls-release": "python tools/verify_controls_release.py",
+    "test:posture": "python tools/posture_qa.py",
+    "test:posture-release": "python tools/verify_posture_release.py",
+    "test:duel": "python tools/duel_qa.py",
+    "test:warchog-release": "python tools/verify_warchog_release.py",
+    "verify:chain": "node tools/verify_warchog_chain.mjs",
+    "server": "node --experimental-strip-types server/index.ts",
+    "test:online": "python tools/online_qa.py",
+    "test:online-release": "python tools/verify_online_release.py",
+    "payments:check": "node --experimental-strip-types tools/payments_check.mjs",
+    "test:paid": "node --experimental-strip-types tools/paid_e2e.mjs",
     "contracts:build": "forge build --root contracts",
     "contracts:test": "forge test --root contracts"
   },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.32.0",
+    "@babylonjs/loaders": "9.32.0",
+    "@dimforge/rapier3d-compat": "0.21.0",
+    "dotenv": "18.0.9",
+    "viem": "2.57.11",
+    "ws": "8.22.0"
+  },
   "devDependencies": {
-    "@openzeppelin/contracts": "5.4.0"
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "@openzeppelin/contracts": "5.4.0",
+    "@types/node": "26.6.5",
+    "@types/ws": "8.18.2",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
   }
 }

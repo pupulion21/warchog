@@ -1,0 +1,77 @@
+{
+  "model_bytes": 1771664,
+  "joint_count": 24,
+  "animation_count": 14,
+  "clip_names": [
+    "Combat_Stance",
+    "Walk_Fight_Back_inplace",
+    "Walk_Fight_Forward_inplace",
+    "Walk_Left_with_Gun_inplace",
+    "Left_Jab_from_Guard",
+    "Charged_Spell_Cast",
+    "Charged_Ground_Slam",
+    "Hit_Reaction",
+    "Knock_Down",
+    "Dead",
+    "Stand_Up1",
+    "Stand_Dodge",
+    "Basic_Jump",
+    "Armature|running|baselayer"
+  ],
+  "triangle_count": 15242,
+  "ground_corrections": {
+    "Combat_Stance": {
+      "min_m": 0.25224,
+      "max_m": 0.25501
+    },
+    "Walk_Fight_Back_inplace": {
+      "min_m": 0.16523,
+      "max_m": 0.23597
+    },
+    "Walk_Fight_Forward_inplace": {
+      "min_m": 0.15911,
+      "max_m": 0.24188
+    },
+    "Walk_Left_with_Gun_inplace": {
+      "min_m": 0.21431,
+      "max_m": 0.25889
+    },
+    "Left_Jab_from_Guard": {
+      "min_m": 0.20046,
+      "max_m": 0.23749
+    },
+    "Charged_Spell_Cast": {
+      "min_m": 0.19078,
+      "max_m": 0.21044
+    },
+    "Charged_Ground_Slam": {
+      "min_m": 0.22834,
+      "max_m": 0.39338
+    },
+    "Hit_Reaction": {
+      "min_m": 0.18871,
+      "max_m": 0.2328
+    },
+    "Knock_Down": {
+      "min_m": -0.90826,
+      "max_m": 0.52542
+    },
+    "Dead": {
+      "min_m": 0.21066,
+      "max_m": 0.71366
+    },
+    "Stand_Up1": {
+      "min_m": 0.22427,
+      "max_m": 0.60899
+    },
+    "Stand_Dodge": {
+      "min_m": 0.22687,
+      "max_m": 0.23385
+    },
+    "Armature|running|baselayer": {
+      "min_m": 0.02091,
+      "max_m": 0.22072
+    }
+  },
+  "sha256": "c759caad33df60e0cd8d3bbf0c72b45b67c2c8cb024950f45dae5e0ee25251bd"
+}
