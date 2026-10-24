@@ -38,6 +38,16 @@ npm run server
 
 Open **http://127.0.0.1:5190**. This command serves the frontend and backend together. Keep the process running for online matches. For a remote host, configure `WARCHOG_HOST` / `WARCHOG_PORT` in the process environment and use an HTTPS proxy that supports WebSockets; static hosting alone cannot run online play or sign results.
 
+## Vercel deployment
+
+`vercel.json` deploys the Vite frontend with `VITE_WARCHOG_STATIC_HOST=true`. This hosted build includes the 3D hub, character and map selection, Training and VS Computer. Online and prize-entry buttons show Coming soon because this deployment does not run the single-process Node room server or its private SQLite database. Existing public contract lookup and eligible wallet recovery remain available.
+
+Local development and the standalone Node server retain online/prize support. Do not upload `.local/`, environment files, databases or the signer to a static deployment. Deploy the persistent backend separately or adapt room ownership and storage before enabling hosted online play. `.vercelignore` excludes private and authoring files from CLI uploads.
+
+```bash
+vercel --prod
+```
+
 ## Controls
 
 | Action | Desktop |

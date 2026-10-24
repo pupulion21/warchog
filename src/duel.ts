@@ -2,6 +2,7 @@ import deployment from '../contracts/deployments/monad-testnet.json';
 import { duelView, isRecordId, shortAddress, usdc, type Address, type DuelSnapshot, type RecordId, type RecoveryAction } from './duel-model.ts';
 import type { Configuration, WalletProvider } from './duel-chain.ts';
 import { escrowProfile } from './chain-profile.ts';
+import { staticHosting, onlineUnavailable } from './hosting.ts';
 
 const explorer = escrowProfile.explorer;
 const storageKey = `warchog:${escrowProfile.chainId}:${escrowProfile.address.toLowerCase()}:duels`;
@@ -57,6 +58,12 @@ export class DuelLobby {
     for (const [id, mode] of [['duel-training', 'training'], ['duel-cpu', 'versus']] as const) $(id).onclick = () => { this.dialog.close(); this.practice(mode); };
     $('duel-share').onclick = () => void this.copyLink();
     this.renderRecent();
+    if(staticHosting){
+      const free=$<HTMLButtonElement>('duel-online');free.disabled=true;free.textContent='ONLINE DUELS · COMING SOON';
+      $('duel-online-status').textContent=onlineUnavailable;
+      document.querySelector('.duel-service strong')!.textContent='Prize duels are coming soon.';
+      document.querySelector('.duel-service p')!.textContent='Practice in Training or VS Computer. Existing testnet refunds and credits remain accessible.';
+    }
     if(escrowProfile.localTest)document.querySelector('.duel-footer')!.textContent='LOCAL EVM · TEST TOKENS ONLY';
     const record = new URL(location.href).searchParams.get('duel');
     if (record && isRecordId(record)) { $<HTMLInputElement>('duel-record').value = record; queueMicrotask(() => this.open()); }
@@ -69,11 +76,12 @@ export class DuelLobby {
     $('duel-title').focus({ preventScroll: true });
     void this.refresh();
     void this.paymentReadiness();
-    void this.savedMatches();
+    if(!staticHosting)void this.savedMatches();
   }
   private async savedMatches(){try{const response=await fetch('/api/paid/history');if(!response.ok)return;const history=await response.json() as {code:string;paid?:{recordId?:string;stage:string}}[];for(const match of history){if(!match.paid?.recordId)continue;const button=document.createElement('button');button.className='paper-button';button.dataset.resumePaid=match.code;button.textContent=`RESUME ${match.code} · ${match.paid.stage.toUpperCase()}`;button.onclick=()=>{this.dialog.close();this.resume?.(match.code);};$('duel-recent').append(button);}}catch{}}
   private async paymentReadiness(){
     const button=$<HTMLButtonElement>('duel-join');button.disabled=true;
+    if(staticHosting){button.textContent='PRIZE DUELS · COMING SOON';return;}
     try{
       const response=await fetch('/api/health',{signal:AbortSignal.timeout(10000)});if(!response.ok)throw new Error('Prize service unavailable.');
       const h=await response.json();
